@@ -3,7 +3,7 @@ import "./App.css";
 import Todo from "./component/Todo";
 import TodosList from "./component/TodosList";
 import { useState } from "react";
-import Filterdynamic from "./component/Filterdynamic";
+import FilterDynamic from "./component/FilterDynamic";
 
 function App() {
   const [inputData, setInputData] = useState();
@@ -11,7 +11,7 @@ function App() {
     <div className="Outerbox">
       <div className="textend">
         <Todo inputData={inputData} setInputData={setInputData} />
-        <Filterdynamic/>
+      <FilterDynamic/>
         <TodosList inputData={inputData} />
         
       </div>

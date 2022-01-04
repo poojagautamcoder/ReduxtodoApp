@@ -2,7 +2,7 @@ import React from "react";
 import AllButtons from "../genericcomponent/AllButtons";
 import styles from "../styles/Filter.css";
 
-const Filterdynamic = () => {
+const FilterDynamic = () => {
   return (
     <div className="dynamic-filter">
       <div className="filter">
@@ -34,6 +34,6 @@ const Filterdynamic = () => {
     </div>
   );
 };
-export default Filterdynamic;
+export default FilterDynamic;
 
 
