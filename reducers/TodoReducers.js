@@ -6,8 +6,8 @@ const initialData = {
 
 const TodoReducers = (state = initialData, action) => {
   // console.log(action, "llllllll")
-  switch (action.type === constant.HANDLE_ADD) {
-    case "HANDLE_ADD":
+  switch (action.type) {
+    case actions.HANDLE_SUBMIT:
       const { id, data } = action.payload;
       return {
         ...state,
